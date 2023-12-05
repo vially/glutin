@@ -9,3 +9,9 @@ members = [
     "glutin_wgl_sys",
     "glutin_gles2_sys",
 ]
+
+[patch.crates-io]
+objc2 = { path = "../objc2/crates/objc2" }
+block-sys = { path = "../objc2/crates/block-sys" }
+objc-sys = { path = "../objc2/crates/objc-sys" }
+icrate = { path = "../objc2/crates/icrate" }
